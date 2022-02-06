@@ -7,7 +7,7 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: #13243e;
+    background-color: #1a2641;
 }
 
 header {
@@ -15,7 +15,8 @@ header {
 }
 
 header img{
-    height: 125px;
+    height: 95px;
+    margin: 1.5rem
 }
 
 main{
@@ -72,23 +73,26 @@ figure {
 }
 
 figcaption{
-    background-color: rgba (0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     position: relative;
     top:-1.5rem;
 }
 
 h2, h4 {
-    color: #C0fefe
+    color: #B9D948;
 }
 
 #interest div {
     background-color: #545353;
     padding: 1rem;
     margin-top: .75 rem;
+    text-align: justify;
 }
 
 .interestText {margin-top: 1rem;}
 
 #copyright{
-    background-color: #d8e459;
+    background-color: #6F56A6;
+    display: flex;
+    justify-content: center;
 }
