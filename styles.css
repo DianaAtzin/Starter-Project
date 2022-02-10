@@ -7,7 +7,7 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: #1a2641;
+    background-color: #044966;
 }
 
 header {
@@ -19,9 +19,6 @@ header img{
     margin: 1.5rem
 }
 
-main{
-
-}
 
 section {
     margin: 2rem 0;
@@ -33,6 +30,7 @@ section {
 }
 #bio-img{
     height: 200px;
+    padding: 0rem .50rem;
 }
 
 #bio-choose {
@@ -46,16 +44,21 @@ section {
 #name-date {
     display: flex;
     justify-content: space-between;
+    font-size: medium;
+}
+#date {
+    font-size: larger;
+    font-weight: bold;
 }
 
 #choose-list {
-    background-color: #545353;
+    background-color: #1e253d;
     padding: 1rem 2rem;
     font-size: 1rem;
 }
 
 ul{
-    padding: 10px 0px 0px 18px;
+    padding: 10px 0px 0px 13px;
 }
 
 #tech {
@@ -83,16 +86,16 @@ h2, h4 {
 }
 
 #interest div {
-    background-color: #545353;
+    background-color: #1e253d;
     padding: 1rem;
-    margin-top: .75 rem;
+    margin-top: 1rem;
     text-align: justify;
 }
 
 .interestText {margin-top: 1rem;}
 
 #copyright{
-    background-color: #6F56A6;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
