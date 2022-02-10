@@ -50,10 +50,11 @@ section {
 #date {
     font-size: larger;
     font-weight: bold;
+    color: #9BF2EA;
 }
 
 #choose-list {
-    background-color: #026773;
+    background-color: #79717A;
     padding: 1rem 2rem;
     font-size: 1rem;
 }
@@ -83,11 +84,11 @@ figcaption{
 }
 
 h2, h4 {
-    color: #7cec89;
+    color: #9BF2EA;
 }
 
 #interest div {
-    background-color: #026773;
+    background-color: #79717A;
     padding: 1rem;
     margin-top: 1rem;
     text-align: justify;
